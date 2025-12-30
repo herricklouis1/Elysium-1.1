@@ -1,30 +1,9 @@
 # Elysium-1.1
 
-Elysium — a starter Next.js + TypeScript + Tailwind project scaffolded to prototype a Fidelity-style finance site.
+Elysium is a modern Next.js, TypeScript, and Tailwind CSS project scaffold created to prototype a Fidelity-style financial web application. It is designed as a clean, scalable foundation for building professional investment dashboards, portfolio analytics, and account management interfaces with an institutional, production-ready feel. The project emphasizes structure, clarity, and extensibility rather than opinionated business logic, making it well suited for fintech MVPs, demos, internal tools, or future full-scale applications. Elysium ships with a fully configured Next.js environment, TypeScript for safety and maintainability, Tailwind CSS for rapid UI development, and a deployment-ready setup that works seamlessly with platforms like Vercel. The repository currently includes example pages such as a home view, a dashboard view, and a sample API route to demonstrate application structure and routing patterns. 
 
-## Quick start (run locally)
+To run the project locally, clone the repository, install dependencies using npm install, and start the development server with npm run dev, then open http://localhost:3000 in your browser. The development server supports hot reloading, allowing changes to appear instantly during development. The project is structured to remain intentionally minimal at this stage, providing flexibility for future additions such as global layouts, reusable UI components, dashboard widgets, charts, authentication, and data layers. 
 
-1. Install dependencies:
+Elysium’s long-term vision is to serve as a strong frontend base for financial products such as brokerage dashboards, wealth management platforms, portfolio tracking tools, and analytics-focused web applications. Planned enhancements include dashboard summary cards, portfolio allocation and performance charts, holdings and transaction tables, loading and empty states, optional authentication, and a progression from mock data to real APIs or databases. The design philosophy centers on clean and neutral UI patterns inspired by institutional finance platforms, composable components over rigid page structures, and developer-friendly defaults that reduce friction while scaling. 
 
-```bash
-npm install
-```
-
-2. Run development server:
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000
-
-## What's included
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Example pages: Home, Dashboard, API route
-
-
----
-
+A live deployment of the project is available at https://elysium-1-1.vercel.app, currently reflecting the initial scaffold and layout foundation. This repository is under active development, with future updates focused on expanding functionality while maintaining simplicity and clarity at the core.
